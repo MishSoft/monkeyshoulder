@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="h-[80vh] xl:h-screen relative text-white">
       {/* overlay */}
       <div className="bg-hero-overlay absolute w-full h-full z-10 bg-primary/[0.93]">
-        overlay
+        {/* overlay */}
       </div>
       {/* video */}
       <video
