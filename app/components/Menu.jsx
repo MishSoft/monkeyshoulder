@@ -3,139 +3,74 @@ import MenuItem from "./MenuItem";
 
 const menuItems = [
   {
-    imgSrc: "https://example.com/image1.jpg",
+    imgSrc: "/products/1.jpg",
     name: "Monkey Shoulder Blended Malt Scotch Whisky",
     description:
       "Monkey Shoulder is a blend of three of Speyside's finest single malt whiskies.",
     price: 45.99,
   },
   {
-    imgSrc: "https://example.com/image2.jpg",
+    imgSrc: "/products/2.jpg",
     name: "Monkey Shoulder Smokey Monkey",
     description:
       "A smoky twist on the classic Monkey Shoulder, perfect for cocktails.",
     price: 49.99,
   },
   {
-    imgSrc: "https://example.com/image3.jpg",
+    imgSrc: "/products/3.png",
     name: "Monkey Shoulder 1000ml",
     description:
       "A larger bottle of the classic Monkey Shoulder, ideal for sharing.",
     price: 64.99,
   },
   {
-    imgSrc: "https://example.com/image4.jpg",
+    imgSrc: "/products/4.png",
     name: "Monkey Shoulder The Ultimate Bartender's Malt",
     description:
       "Specially crafted for bartenders, this malt is perfect for creating cocktails.",
     price: 54.99,
   },
   {
-    imgSrc: "https://example.com/image5.jpg",
+    imgSrc: "/products/5.jpg",
     name: "Monkey Shoulder Batch 27",
     description:
       "The original Monkey Shoulder batch, with a smooth and rich flavor profile.",
     price: 47.99,
   },
   {
-    imgSrc: "https://example.com/image6.jpg",
+    imgSrc: "/products/6.jpg",
     name: "Monkey Shoulder Bourbon Cask",
     description:
       "A unique blend finished in bourbon casks for added sweetness.",
     price: 52.99,
   },
   {
-    imgSrc: "https://example.com/image7.jpg",
+    imgSrc: "/products/7.jpg",
     name: "Monkey Shoulder Sherry Cask",
     description:
       "A limited edition blend finished in sherry casks, offering a fruity and spicy finish.",
     price: 59.99,
   },
   {
-    imgSrc: "https://example.com/image8.jpg",
+    imgSrc: "/products/8.jpg",
     name: "Monkey Shoulder 750ml",
     description:
       "The classic Monkey Shoulder in a 750ml bottle, perfect for gifting.",
     price: 39.99,
   },
   {
-    imgSrc: "https://example.com/image9.jpg",
+    imgSrc: "/products/9.jpg",
     name: "Monkey Shoulder Distiller's Choice",
     description:
       "A special selection by the master distiller, featuring unique flavor notes.",
     price: 55.99,
   },
   {
-    imgSrc: "https://example.com/image10.jpg",
+    imgSrc: "/products/10.jpg",
     name: "Monkey Shoulder Port Cask",
     description:
       "Finished in port casks, this blend offers a rich and fruity taste.",
     price: 58.99,
-  },
-  {
-    imgSrc: "https://example.com/image11.jpg",
-    name: "Monkey Shoulder 375ml",
-    description:
-      "A half-size bottle of the classic Monkey Shoulder, ideal for sampling.",
-    price: 24.99,
-  },
-  {
-    imgSrc: "https://example.com/image12.jpg",
-    name: "Monkey Shoulder Single Malt",
-    description: "A special edition single malt version of Monkey Shoulder.",
-    price: 64.99,
-  },
-  {
-    imgSrc: "https://example.com/image13.jpg",
-    name: "Monkey Shoulder Honey Cask",
-    description: "A sweet and smooth blend finished in honey casks.",
-    price: 53.99,
-  },
-  {
-    imgSrc: "https://example.com/image14.jpg",
-    name: "Monkey Shoulder Double Malt",
-    description: "A blend of two Speyside single malts for a richer flavor.",
-    price: 51.99,
-  },
-  {
-    imgSrc: "https://example.com/image15.jpg",
-    name: "Monkey Shoulder Caribbean Rum Cask",
-    description:
-      "A tropical twist on the classic blend, finished in Caribbean rum casks.",
-    price: 56.99,
-  },
-  {
-    imgSrc: "https://example.com/image16.jpg",
-    name: "Monkey Shoulder Triple Malt",
-    description:
-      "A premium blend of three single malts, offering a complex flavor profile.",
-    price: 63.99,
-  },
-  {
-    imgSrc: "https://example.com/image17.jpg",
-    name: "Monkey Shoulder Spice Edition",
-    description:
-      "A spicier version of Monkey Shoulder, perfect for warming cocktails.",
-    price: 50.99,
-  },
-  {
-    imgSrc: "https://example.com/image18.jpg",
-    name: "Monkey Shoulder Classic",
-    description: "The classic Monkey Shoulder blend, versatile and smooth.",
-    price: 44.99,
-  },
-  {
-    imgSrc: "https://example.com/image19.jpg",
-    name: "Monkey Shoulder Limited Edition",
-    description:
-      "A special limited edition release with unique flavor characteristics.",
-    price: 69.99,
-  },
-  {
-    imgSrc: "https://example.com/image20.jpg",
-    name: "Monkey Shoulder Custom Label",
-    description: "Create your own custom label for a personalized gift.",
-    price: 74.99,
   },
 ];
 
@@ -158,7 +93,7 @@ export default function Menu() {
                   name={name}
                   description={description}
                   price={price}
-                  //   imgSrc={imgSrc}
+                  imgSrc={imgSrc}
                   key={index}
                 />
               );

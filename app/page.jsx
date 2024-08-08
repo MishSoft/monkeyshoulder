@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Explore from "./components/Explore";
 import About from "./components/About";
 import Menu from "./components/Menu";
+import Testimonialts from "./components/Testimonialts";
 
 export default function Home() {
   useEffect(() => {
@@ -19,8 +20,7 @@ export default function Home() {
       <Explore />
       <About />
       <Menu />
-      {/* temporary div */}
-      <div className="h-[4000px]"></div>
+      <Testimonialts />
     </div>
   );
 }

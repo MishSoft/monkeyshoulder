@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { LiaWineBottleSolid } from "react-icons/lia";
+// import { LiaWineBottleSolid } from "react-icons/lia";
 
 export default function Explore() {
   return (
@@ -50,10 +50,7 @@ export default function Explore() {
                   The old fashioned is the world's favourite cocktail recipe and
                   Monkey was made for this long standing classic. But this
                   whisky cocktail need not be hard work, why not join Joe, our
-                  global brand ambassador for a quick lesson in and learn how to
-                  make a batch of our Lazy Old Fashioned cocktail at home which
-                  you can store in the fridge for later or share with your
-                  mates.
+                  global brand ambassador for a quick lesson in and learn.
                 </p>
               </div>
             </div>
@@ -93,7 +90,7 @@ export default function Explore() {
                   Everyone needs a beach holiday now and again and our whisky is
                   no different. Take monkey on your next tropical summer
                   adventure with this twist on a Pina Colada. Tastes like that
-                  tropical holiday you’d rather be on, pass the coconuts.
+                  tropical holiday you’d rather.
                 </p>
               </div>
             </div>
@@ -116,8 +113,7 @@ export default function Explore() {
                   We love a classic whisky sour cocktail, but we had to give it
                   that Monkey Shoulder spin with a dollop of mouthwatering
                   strawberry jam. Not only does this fruity concoction tastes
-                  like whisky and donuts, but it’s the perfect red cocktail for
-                  summer and we love it!
+                  like whisky and donuts, but it’s the perfect red cocktail.
                 </p>
               </div>
             </div>
