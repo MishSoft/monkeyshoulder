@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Monkey Shoulder Whisky Website
+Welcome to the Monkey Shoulder Whisky project! This repository contains the code for a modern, engaging website designed to showcase the Monkey Shoulder Whisky brand. The website features various sections including an introduction, exploration of different drinks, detailed menu, and customer testimonials.
 
-## Getting Started
+Features
+Hero Section: Features a video background with a badge, heading, and call-to-action button.
+Explore Section: Showcases four different drink options with images and descriptions.
+About Section: Provides information about the brand's journey, promise, and team, with horizontal scrolling and animations.
+Menu Section: Displays a grid layout of menu items with images, descriptions, and prices.
+Testimonials Section: Includes customer testimonials with ratings and comments, utilizing Swiper for a carousel effect.
+Technologies Used
+React: For building the user interface.
+LocomotiveScroll: For smooth scrolling effects.
+GSAP: For animations.
+Swiper: For carousel functionality.
+Tailwind CSS: For styling.
+JavaScript ES6+: For modern JavaScript features.
+Getting Started
+To get started with the project, follow these steps:
 
-First, run the development server:
+Clone the Repository:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+bash
+Copy code
+git clone https://github.com/yourusername/monkey-shoulder-whisky.git
+Navigate to the Project Directory:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+bash
+Copy code
+cd monkey-shoulder-whisky
+Install Dependencies:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+bash
+Copy code
+npm install
+Start the Development Server:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+bash
+Copy code
+npm start
+The application should now be running at http://localhost:3000.
 
-## Learn More
+Project Structure
+/src: Contains the source code for the application.
+/components: Contains reusable React components.
+/styles: Contains Tailwind CSS configuration and custom styles.
+App.js: The main application component.
+public/: Contains static assets like images and the index.html file.
+package.json: Lists project dependencies and scripts.
+Contributing
+Contributions are welcome! To contribute to this project, please follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+Fork the Repository
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Create a New Branch
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+bash
+Copy code
+git checkout -b feature/your-feature
+Commit Your Changes
 
-## Deploy on Vercel
+bash
+Copy code
+git commit -am 'Add new feature'
+Push to the Branch
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+bash
+Copy code
+git push origin feature/your-feature
+Create a New Pull Request
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Go to the repository on GitHub and create a new pull request.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contact
+For any inquiries or questions, please contact [your email] or create an issue in this repository.
+
