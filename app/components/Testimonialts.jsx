@@ -12,7 +12,6 @@ import "swiper/css/navigation";
 import { IoMdQuote } from "react-icons/io";
 import { IoIosStarOutline } from "react-icons/io";
 import { MdOutlineStar } from "react-icons/md";
-import { useEffect, useState } from "react";
 
 const testimonials = [
   {
